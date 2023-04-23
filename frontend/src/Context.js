@@ -6,8 +6,8 @@ import {stime} from './components/Sstopwatchs';
 
 const SocketContext = createContext();
 //q
-const socket = io('http://localhost:5000');
-// const socket = io('https://yashasvibahva2.herokuapp.com/');
+// const socket = io('http://localhost:5000');
+const socket = io('https://p2p-ml-vc-backend.onrender.com');
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);

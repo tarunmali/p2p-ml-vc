@@ -6,7 +6,7 @@ let count=0;
 
 function fail() {
   // count++
-  window.open('https://sharmayashasvi.github.io/fail_page/','_blank');
+  // window.open('https://sharmayashasvi.github.io/fail_page/','_blank');
   // window.open("https://stackoverflow.com/", "", "width=200,height=100"); 
 }
 
@@ -14,7 +14,7 @@ function fail() {
 
 function success() {
   // count++
-  window.open('https://sharmayashasvi.github.io/success_page/','_blank');
+  // window.open('https://sharmayashasvi.github.io/success_page/','_blank');
   // window.open("https://stackoverflow.com/", "", "width=200,height=100"); 
 }
 
